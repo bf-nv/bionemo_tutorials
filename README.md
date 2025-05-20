@@ -7,42 +7,57 @@ This virtual screening workflow for drug discovery combines three key steps: pro
 ## Getting Started
 
 1) **Generate an `API_KEY`** <BR>
-   Visit [https://build.nvidia.com/explore/discover](https://build.nvidia.com/explore/discover) to create your `API_KEY`.
+   Visit [https://build.nvidia.com](https://build.nvidia.com) to create your `API_KEY`.
 
 2) **Set Up in Google Colab** <BR>
    Copy and paste your `API_KEY` into the Google Colab environment as instructed.
 
 3) **Run the Tutorial Notebooks** <BR>
-   Execute the three provided Jupyter Notebooks sequentially, following the step-by-step instructions included in each IPYNB.
+   Sequentially execute the three provided Jupyter Notebooks in the Google Colab environment, following the step-by-step instructions included in each IPYNB.
 
 ## Details
 
-1) **Setting up an `API_KEY`** <BR>
-a) Visit [https://build.nvidia.com/explore/discover](https://build.nvidia.com/explore/discover) to create your `API_KEY`.<BR>
-b) Click "Biology" in the left-hand menu (highlighted in orange below): <BR>
-<img src="assets/01_Build_DiscoverySection.png" alt="Alt text" width="300"> <BR>   
-c) Under the "Generative Virtual Screening" heading, click on the right arrow (highlighted in orange below) to find the "molmim" application: <BR>
-<img src="assets/03_GenerativeVirtualScreen.png" alt="Alt text" width="300"> <BR>
-d) Click the "Deploy" tab in the center of the page, then click on the "Get API Key" button (highlighted in orange below): <BR> 
-<img src="assets/04_MolMIM.png" alt="Alt text" width="300"> <BR>
-e) In the pop-up window, enter your email address to receive free credits for using NVIDIA NIMs, then click "Next" (highlighted in orange below): <BR>
-<img src="assets/05_SignIn_NV_NIM.png" alt="Alt text" width="300"> <BR>
-f) Follow the instructions to either: 1) log in; or 2) create a free NVIDIA Developer account. <BR>
-<img src="assets/gen_API_key.png" alt="Alt text" width="300"> <BR>
-g) When your `API_KEY` appears, click the button next to it to copy the key (highlighted in orange stroke below): <BR> 
-<img src="images/copy_key.png" alt="Alt text" width="200"> <BR>
+### Step 1: Generate an `API_KEY`
+1) Visit [https://build.nvidia.com](https://build.nvidia.com) to create your `API_KEY`.<BR>
+2) Scroll down and click "**Biology**" in the left-hand menu (highlighted in orange below): <BR>
+<img src="assets/01_Build_DiscoverySection.png" alt="Alt text" width="300"><BR>
+3) Under the "**Generative Virtual Screening**" heading, click on the right arrow (highlighted in orange below) to find the "**molmim**" application: <BR>
+   <img src="assets/02_Build_Biology_ArrowRight.png" alt="Alt text" width="300"><BR>
+   <img src="assets/03_GenerativeVirtualScreen.png" alt="Alt text" width="300"><BR>
+4) Click the "**Deploy**" tab of the heading near the left-center of the page, then click on the "**Get API Key**" button (highlighted in orange below): <BR> 
+   <img src="assets/04_MolMIM.png" alt="Alt text" width="300"> <BR>
+5) In the pop-up window that appears, enter your email address to receive free credits for using NVIDIA NIMs. Then, click "**Next**" (highlighted in orange below). <BR>
+   <img src="assets/05_SignIn_NV_NIM.png" alt="Alt text" width="300"> <BR>
+6) Follow the instructions to either: 1) log in; or 2) create a free NVIDIA Developer account. <BR>
+   <img src="assets/gen_API_key.png" alt="Alt text" width="300"> <BR>
+7) When your `API_KEY` appears, click the button next to it to copy the key (highlighted in orange stroke below): <BR> 
+   <img src="assets/copy_key.png" alt="Alt text" width="200"> <BR>
 
-2) **Adding the `API_KEY` to Your Jupyter Notebook Colab**
-\- Click "Open in Colab" next to `Step_1_Predict_target_protein_structure.ipynb` in section **2. Run Jupyter Notebooks** to open it in Colab.  
-\- Click key button in the left-hand menu, turn on "Notebook access", put "API_KEY" under "Name", and paste the API Key under "Value" (highlighted with orange strokes below):    
-<img src="images/colab_copy.png" alt="Alt text" width="300">  
-\- Now you're ready to run the three Jupyter notebooks one-by-one.  
-\- **Note that the API Key might expire after 24 hours. If it no longer works, please repeat the above steps to generate a new API Key.**
+### Step 2: Set Up in Google Colab
+   You must add the `API_KEY` to your Google Colab account <BR>
+1) Click this link to open the IPYNB in Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_1_Predict_target_protein_structure.ipynb) <BR>
+2) Click the "**key**" button in the left-hand menu of the Colab, then click on "**+ Add new secret**" (highlighted in orange below): <BR>  
+   <img src="assets/07_GoogleCollab_AddNewSecret.png" alt="Alt text" width="400"> <BR>
+3) Toggle "on" the "**Notebook access**" option, then in the "**Name**" field enter `API_KEY`, and then paste the copied `API_KEY` into the "**Value**" field (highlighted in orange below): <BR>
+   <img src="assets/08_GoogleCollab_Paste_API_KEY.png" alt="Alt text" width="400"> <P>
+   **Note: The API Key might expire after 24 hours. If it no longer works, please repeat the above steps to generate a new API Key.**
 
-2) **Running the Jupyter Notebooks in Colab**
-### 2. Run Jupyter Notebooks
-Step_1_Predict_target_protein_structure.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_1_Predict_target_protein_structure.ipynb)
+### Step 3: Run the Tutorial Notebooks
+   Run the notebooks sequentially, as the output of one is used in the next notebook <BR>
+1) Step_1_Predict_target_protein_structure.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_1_Predict_target_protein_structure.ipynb)
+2) Step_2_MolMIM_controlled_generation.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_2_MolMIM_controlled_generation.ipynb)
+3) Step_3_Predict_docking_poses.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_3_Predict_docking_poses.ipynb)
 
-Step_2_MolMIM_controlled_generation.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_2_MolMIM_controlled_generation.ipynb)
+<P>
 
-Step_3_Predict_docking_poses.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_3_Predict_docking_poses.ipynb)
+## References for Applications
+
+**ESMFold** Lin, Z.; *et al*. "[Evolutionary-Scale Prediction of Atomic-Level Protein Structure with a Language Model.](https://www.science.org/doi/10.1126/science.ade2574)" *Science* **2023**, *379*, 1123-1130.  
+
+**MolMIM** Reidenbach, D.; *et al*. "[Improving Small Molecule Generation using Mutual Information Machine.](https://arxiv.org/abs/2208.09016)" *arXiv* **2022**. 
+
+**QED Score** Bickerton, G.; *et al*. "[Quantifying the Chemical Beauty of Drugs.](https://www.nature.com/articles/nchem.1243)" *Nature Chem.* **2012**, *4*, 90–98. 
+
+**DiffDock** Corso, G.; *et al*. "[DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking.](https://arxiv.org/abs/2210.01776)" *arXiv* **2022**. 
+
+<P>
