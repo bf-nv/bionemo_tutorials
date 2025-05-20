@@ -29,9 +29,9 @@ This virtual screening workflow for drug discovery combines three key steps: pro
 5) In the pop-up window that appears, enter your email address to receive free credits for using NVIDIA NIMs. Then, click "**Next**" (highlighted in orange below). <BR>
    <img src="assets/05_SignIn_NV_NIM.png" alt="Alt text" width="300"> <BR>
 6) Follow the instructions to either: 1) log in; or 2) create a free NVIDIA Developer account. <BR>
-   <img src="assets/gen_API_key.png" alt="Alt text" width="300"> <BR>
+   <img src="assets/06a_gen_API_key.png" alt="Alt text" width="300"> <BR>
 7) When your `API_KEY` appears, click the button next to it to copy the key (highlighted in orange stroke below): <BR> 
-   <img src="assets/copy_key.png" alt="Alt text" width="200"> <BR>
+   <img src="assets/06b_copy_key.png" alt="Alt text" width="300"> <BR>
 
 ### Step 2: Set Up in Google Colab
    You must add the `API_KEY` to your Google Colab account <BR>
@@ -43,14 +43,14 @@ This virtual screening workflow for drug discovery combines three key steps: pro
    **Note: The API Key might expire after 24 hours. If it no longer works, please repeat the above steps to generate a new API Key.**
 
 ### Step 3: Run the Tutorial Notebooks
-   Run the notebooks sequentially, as the output of one is used in the next notebook <BR>
+   Run the notebooks sequentially, as the output of one is used in the next <BR>
 1) Step_1_Predict_target_protein_structure.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_1_Predict_target_protein_structure.ipynb)
 2) Step_2_MolMIM_controlled_generation.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_2_MolMIM_controlled_generation.ipynb)
 3) Step_3_Predict_docking_poses.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_3_Predict_docking_poses.ipynb)
 
 <P>
 
-## References for Applications
+## References
 
 **ESMFold** Lin, Z.; *et al*. "[Evolutionary-Scale Prediction of Atomic-Level Protein Structure with a Language Model.](https://www.science.org/doi/10.1126/science.ade2574)" *Science* **2023**, *379*, 1123-1130.  
 
