@@ -35,7 +35,7 @@ This virtual screening workflow for drug discovery combines three key steps: pro
 
 ### Step 2: Set Up in Google Colab
    You must add the `API_KEY` to your Google Colab account <BR>
-1) Click this link to open the IPYNB in Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_1_Predict_target_protein_structure.ipynb) <BR>
+1) Click this link to open the IPYNB in Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_1_Predict_Target_Protein_Structure_4WQP.ipynb) <BR>
 2) Click the "**key**" button in the left-hand menu of the Colab, then click on "**+ Add new secret**" (highlighted in orange below): <BR>  
    <img src="assets/07_GoogleCollab_AddNewSecret.png" alt="Alt text" width="400"> <BR>
 3) Toggle "on" the "**Notebook access**" option, then in the "**Name**" field enter `API_KEY`, and then paste the copied `API_KEY` into the "**Value**" field (highlighted in orange below): <BR>
