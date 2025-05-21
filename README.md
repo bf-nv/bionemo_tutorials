@@ -44,9 +44,9 @@ This virtual screening workflow for drug discovery combines three key steps: pro
 
 ### Step 3: Run the Tutorial Notebooks
    Run the notebooks sequentially, as the output of one is used in the next <BR>
-1) Step_1_Predict_target_protein_structure.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_1_Predict_target_protein_structure.ipynb)
-2) Step_2_MolMIM_controlled_generation.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_2_MolMIM_controlled_generation.ipynb)
-3) Step_3_Predict_docking_poses.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hw-ju/bionemo_nim/blob/main/Step_3_Predict_docking_poses.ipynb)
+1) Step_1_Predict_target_protein_structure.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_1_Predict_Target_Protein_Structure_4WQP.ipynb)
+2) Step_2_MolMIM_controlled_generation.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_2_MolMIM_Controlled_SM_Generation_4WQP.ipynb)
+3) Step_3_Predict_docking_poses.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_3_Predict_SM_Docking_Poses_4WQP.ipynb)
 
 <P>
 
