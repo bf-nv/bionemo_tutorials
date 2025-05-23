@@ -54,7 +54,11 @@ This virtual screening workflow for drug discovery combines three key steps: pro
 
 **ESMFold** Lin, Z.; *et al*. "[Evolutionary-Scale Prediction of Atomic-Level Protein Structure with a Language Model.](https://www.science.org/doi/10.1126/science.ade2574)" *Science* **2023**, *379*, 1123-1130.  
 
+**OpenFold2** Ahdritz, G.; *et al*. "[OpenFold: Retraining AlphaFold2 Yields New Insights into its Learning Mechanisms and Capacity for Generalization.](https://www.nature.com/articles/s41592-024-02272-z)" *Nat. Methods* **2024**, *21*, 1514–1524.
+
 **MolMIM** Reidenbach, D.; *et al*. "[Improving Small Molecule Generation using Mutual Information Machine.](https://arxiv.org/abs/2208.09016)" *arXiv* **2022**. 
+
+**GenMol** Lee, S.; *et al*. "[GenMol: A Drug Discovery Generalist with Discrete Diffusion.](https://arxiv.org/abs/2501.06158)" *arXiv* **2025**.
 
 **QED Score** Bickerton, G.; *et al*. "[Quantifying the Chemical Beauty of Drugs.](https://www.nature.com/articles/nchem.1243)" *Nature Chem.* **2012**, *4*, 90–98. 
 
