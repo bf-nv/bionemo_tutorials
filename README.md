@@ -43,10 +43,17 @@ This virtual screening workflow for drug discovery combines three key steps: pro
    **Note: The API Key might expire after 24 hours. If it no longer works, please repeat the above steps to generate a new API Key.**
 
 ### Step 3: Run the Tutorial Notebooks
-   Run the notebooks sequentially, as the output of one is used in the next <BR>
-1) Step_1_Predict_target_protein_structure.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_1_Predict_Target_Protein_Structure_4WQP.ipynb)
-2) Step_2_MolMIM_controlled_generation.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_2_MolMIM_Controlled_SM_Generation_4WQP.ipynb)
-3) Step_3_Predict_docking_poses.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_3_Predict_SM_Docking_Poses_4WQP.ipynb)
+   Run the notebooks sequentially (Steps 1, 2, 3), as the output of one is used in the next step. <BR>
+1. Predict the 3D structure of the folded protein from an amino-acid sequence: <BR>
+   a) Step_1_ESMFold_Predict_Target_Protein_Structure_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_1_ESMFold_Predict_Target_Protein_Structure_4WQP.ipynb) <BR>
+    b) Step_1_OpenFold2_Predict_Target_Protein_Structure_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_1_OpenFold2_Predict_Target_Protein_Structure_4WQP.ipynb)
+2. Generate small molecule ligands from a `SEED` ligand: <BR>
+    a) Step_2_GenMol_Controlled_SM_Generation_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_2_GenMol_Controlled_SM_Generation_4WQP.ipynb) <BR>
+    b) Step_2_MolMIM_Controlled_SM_Generation_QED_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_2_MolMIM_Controlled_SM_Generation_QED_4WQP.ipynb) <BR>
+c) Step_2_MolMIM_Controlled_SM_Generation_cLogP_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_2_MolMIM_Controlled_SM_Generation_cLogP_4WQP.ipynb) <BR>
+3. Dock the ligands into the protein: <BR>
+    a) Step_3_DiffDock_Predict_SM_Docking_Poses_PDBprotein_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_3_DiffDock_Predict_SM_Docking_Poses_PDBprotein_4WQP.ipynb) <BR>
+    b) Step_3_DiffDock_Predict_SM_Docking_Poses_PredictedProtein_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_3_DiffDock_Predict_SM_Docking_Poses_PredictedProtein_4WQP.ipynb) <BR>
 
 <P>
 
