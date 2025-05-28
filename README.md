@@ -68,12 +68,20 @@ This virtual screening workflow for drug discovery combines three key steps:
 
 **OpenFold2** Ahdritz, G.; *et al*. "[OpenFold: Retraining AlphaFold2 Yields New Insights into its Learning Mechanisms and Capacity for Generalization.](https://www.nature.com/articles/s41592-024-02272-z)" *Nat. Methods* **2024**, *21*, 1514–1524.
 
-**MolMIM** Reidenbach, D.; *et al*. "[Improving Small Molecule Generation using Mutual Information Machine.](https://arxiv.org/abs/2208.09016)" *arXiv* **2022**. 
+**MMseqs2** Kallenborn, F.; *et al.* "[GPU-Accelerated Homology Search with MMseqs2.](https://www.biorxiv.org/content/10.1101/2024.11.13.623350v6)" *bioRxiv* **2024**. 
 
 **GenMol** Lee, S.; *et al*. "[GenMol: A Drug Discovery Generalist with Discrete Diffusion.](https://arxiv.org/abs/2501.06158)" *arXiv* **2025**.
+ 
+**MolMIM** Reidenbach, D.; *et al*. "[Improving Small Molecule Generation using Mutual Information Machine.](https://arxiv.org/abs/2208.09016)" *arXiv* **2022**. 
+
+**cLogP** 1) Leeson, P. D.; Springthorpe, B. "[The Influence of Drug-Like Concepts on
+Decision-Making in Medicinal Chemistry.](https://www.nature.com/articles/nrd2445)" *Nat. Rev. Drug Discov.* **2007**, *6*, 881-890. 2)
+2. Pennington, L. D.; *et al.* "[Property-Based Drug Design Merits a Nobel Prize](https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c01345)." *J. Med. Chem.* **2024**, *67*, 11452-11458.
 
 **QED Score** Bickerton, G.; *et al*. "[Quantifying the Chemical Beauty of Drugs.](https://www.nature.com/articles/nchem.1243)" *Nature Chem.* **2012**, *4*, 90–98. 
 
 **DiffDock** Corso, G.; *et al*. "[DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking.](https://arxiv.org/abs/2210.01776)" *arXiv* **2022**. 
+
+**RORc Antagonists** Rene, O.; *et al*. "[Minor Structural Change to Tertiary Sulfonamide RORc Ligands Led to Opposite Mechanisms of Action.](https://pubs.acs.org/doi/10.1021/ml500420y)" *ACS Med. Chem. Lett.* **2015**, *6*, 276-281.
 
 <P>
