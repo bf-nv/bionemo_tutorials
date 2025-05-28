@@ -1,8 +1,11 @@
 # Tutorial: Using NVIDIA BioNeMo NIMs for Virtual Screening
 
-This tutorial demonstrates how to use **NVIDIA BioNeMo NIMs** (NVIDIA Inference Microservices) hosted on NVIDIA computing infrastructure for virtual screening tasks.
+This tutorial demonstrates how to use [NVIDIA BioNeMo NIMs](https://developer.nvidia.com/nim) (NVIDIA Inference Microservices) hosted on NVIDIA computing infrastructure for virtual screening tasks.
 
-This virtual screening workflow for drug discovery combines three key steps: protein folding using ESMFold, controlled generation of small molecules with molmim, and docking those molecules into a target protein using DiffDock.
+This virtual screening workflow for drug discovery combines three key steps: 
+1) Protein folding using [ESMFold](https://docs.api.nvidia.com/nim/reference/meta-esmfold), [OpenFold2](https://docs.nvidia.com/nim/bionemo/openfold2/latest/overview.html), or [MSA-Search](https://docs.nvidia.com/nim/bionemo/msa-search/latest/overview.html) + [OpenFold2](https://docs.nvidia.com/nim/bionemo/openfold2/latest/overview.html)
+2) Controlled generation of small molecule ligands with [GenMol](https://docs.nvidia.com/nim/bionemo/genmol/latest/overview.html) or [MolMIM](https://docs.nvidia.com/nim/bionemo/molmim/latest/overview.html)
+3) Docking the molecules/ligands into a target protein using [DiffDock](https://docs.nvidia.com/bionemo-framework/1.10/models/diffdock.html).
 
 ## Getting Started
 
@@ -13,7 +16,7 @@ This virtual screening workflow for drug discovery combines three key steps: pro
    Copy and paste your `API_KEY` into the Google Colab environment as instructed.
 
 3) **Run the Tutorial Notebooks** <BR>
-   Sequentially execute the three provided Jupyter Notebooks in the Google Colab environment, following the step-by-step instructions included in each IPYNB.
+   Sequentially execute the provided Jupyter Notebooks in the Google Colab environment, following the step-by-step instructions included in each IPYNB.
 
 ## Details
 
@@ -46,7 +49,8 @@ This virtual screening workflow for drug discovery combines three key steps: pro
    Run the notebooks sequentially (Steps 1, 2, 3), as the output of one is used in the next step. <BR>
 1. Predict the 3D structure of the folded protein from an amino-acid sequence: <BR>
    a) Step_1_ESMFold_Predict_Target_Protein_Structure_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_1_ESMFold_Predict_Target_Protein_Structure_4WQP.ipynb) <BR>
-    b) Step_1_OpenFold2_Predict_Target_Protein_Structure_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_1_OpenFold2_Predict_Target_Protein_Structure_4WQP.ipynb)
+    b) Step_1_OpenFold2_Predict_Target_Protein_Structure_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_1_OpenFold2_Predict_Target_Protein_Structure_4WQP.ipynb) <BR>
+    c) Step_1_OpenFold2_MSA_Predict_Target_Protein_Structure_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_1_OpenFold2_MSA_Predict_Target_Protein_Structure_4WQP.ipynb) <BR>
 2. Generate small molecule ligands from a `SEED` ligand: <BR>
     a) Step_2_GenMol_Controlled_SM_Generation_cLogP_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_2_GenMol_Controlled_SM_Generation_cLogP_4WQP.ipynb) <BR>
     b) Step_2_GenMol_Controlled_SM_Generation_QED_4WQP.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bf-nv/bionemo_tutorials/blob/main/Step_2_GenMol_Controlled_SM_Generation_QED_4WQP.ipynb) <BR>
